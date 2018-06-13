@@ -1,8 +1,8 @@
 def prime?(integer)
     list = []
-    i = 1
+    i = 0
     while i < integer
-        list << [i]
+        list << [i + 1]
         i += 1
     end
     puts list
