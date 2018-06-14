@@ -1,7 +1,7 @@
 def prime?(integer)
     list = []
     i = 0
-    if integer < 1
+    if integer < 2
         return false
     end
     while i < integer
