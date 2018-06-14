@@ -2,8 +2,8 @@ def prime?(integer)
     list = []
     i = 0
     if integer < 0
-        false
-    end 
+        return false
+    end
     while i < integer
         list << i + 1
         i += 1
