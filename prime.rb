@@ -9,7 +9,11 @@ def prime?(integer)
     list.each do |number|
         if integer % number == 0
             match += 1
-        end 
+        end
+    end
+    if match > 2
+        true
+    else false
     end
 end
 
