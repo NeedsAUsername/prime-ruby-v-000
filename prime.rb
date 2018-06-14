@@ -12,8 +12,8 @@ def prime?(integer)
         end
     end
     if match > 2
-        true
-    else false
+        false
+    else true
     end
 end
 
