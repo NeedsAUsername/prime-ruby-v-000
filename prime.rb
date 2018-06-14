@@ -9,4 +9,4 @@ def prime?(integer)
 end
 
 
-prime?(3)
+prime?(5)
