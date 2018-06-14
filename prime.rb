@@ -5,7 +5,12 @@ def prime?(integer)
         list << i + 1
         i += 1
     end
-    puts list
+    match = 0
+    list.each do |number|
+        if integer % number == 0
+            match += 1
+        end 
+    end
 end
 
 
